@@ -1,0 +1,7 @@
+#commands to create "up" and "down" migration files
+migrate create -ext sql -dir <path> -seq <file_name>
+
+it will create a <seq_number>_<file_name>.up.sql and .down.sql files in the given 'path'
+
+
+# other commands to create a postgres docker cointaienr, create db and to run migratons are included in Makefile
